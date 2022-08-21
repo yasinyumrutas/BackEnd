@@ -18,6 +18,7 @@ static void GetAllProduct()
             {
                 Console.WriteLine(reader.GetString(3));
                 Console.WriteLine($"Price:{reader[6]}");
+                Console.WriteLine("commit atılıyor");
             }
             reader.Close();
         }
